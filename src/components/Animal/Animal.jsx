@@ -71,7 +71,7 @@ const Animal =()=>{
             {mamiferos.map((mamifero) =>
             <li key={mamifero.id} className={mamifero.tamaño}>
                 <h2>{mamifero.name}</h2>
-                <span>{mamifero.tamaño}</span>
+                <h3>{mamifero.tamaño}</h3>
             </li>)}
         </ul>
     )
