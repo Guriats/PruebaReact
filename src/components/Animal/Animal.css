@@ -1,3 +1,11 @@
+.conteiner{
+    border: 2px solid orange;
+    height: 130px;
+    margin: 40px;
+    background-color: rgb(52, 119, 52);
+    width: auto;
+}
+
 .animal{
     display: flex;
     justify-content: center;
