@@ -12,8 +12,9 @@ function App() {
   return (
     <>
      <Header/>
-     <Banner bannerImage={reactBanner} bannerAlt="ReactJS Banner"/>
-     <Foto fotografia={reactFoto} fotografiaAlt="ReactJs Banner"/>
+     <Banner bannerImage={reactBanner} bannerAlt="perro"/>
+     <Foto fotografia={reactFoto} fotografiaAlt="chica"/>
+     <Banner bannerImage={reactFoto} bannerAlt="chica"/>
      <Fotos/>
      <Animal/>
     </>

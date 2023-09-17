@@ -1,8 +1,12 @@
-import "./Banner.css"
+import "./Banner.css";
 
-    const Banner = ({bannerImage, bannerAlt}) => {
-        return <img src={bannerImage} alt={bannerAlt} className="banner"/>
-    }
+const Banner = ({ bannerImage, bannerAlt }) => {
+  return (
+    <div>
+      <img src={bannerImage} alt={bannerAlt} className="banner" />
+      <h3 className="texto">Pruebassss</h3>
+    </div>
+  );
+};
 
 export default Banner;
-

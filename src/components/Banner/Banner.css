@@ -3,3 +3,8 @@
     width: 100%;
     object-fit: cover;
 }
+
+.texto{
+    font-size: 30px;
+    padding: 40px;
+}
